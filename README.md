@@ -1,5 +1,12 @@
 # Code Documentation Generator
 
+## Overview
+
+An NLP exercise that pulls documented tokens such as endpoint, timeout and retry out of a docstring-shaped string. `POST /extract` matches the text against a small comment lexicon and returns the terms it found. A versioned `/v1` ops API adds workspaces, tenant isolation, job approval and audit, and the service ships with a Dockerfile, a docker-compose file and a pytest suite run in GitHub Actions.
+
+- **Built with:** Python, pytest, Docker, GitHub Actions
+- **Scope:** Local laptop lab using a fixed lexicon; it does not call a hosted model or apply production changes.
+
 <!-- project-guide:start -->
 ## Project guide
 
